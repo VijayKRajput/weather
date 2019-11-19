@@ -1,0 +1,188 @@
+/* Import Icon fonts and web font */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
+@import "http://weloveiconfonts.com/api/?family=entypo";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body {
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E0E1E3;
+}
+/* Colors declarations */
+/* General styles */
+.widgetwrapper {
+  width: 600px;
+  height: 480px;
+  margin: 10% auto;
+  background-color: #1F222A;
+  border-radius: 7px;
+}
+
+
+
+#widgetnav {
+  width: 120px;
+  height: 100%;
+  float: left;
+  background-color: #373B46;
+  border-radius: 7px;
+}
+#widgetnav ul li {
+  width: 120px;
+  height: 90px;
+  float: left;
+  text-align: center;
+  line-height: 90px;
+  background-color: #373B46;
+}
+#widgetnav ul li.last {
+  height: 100px;
+  line-height: 140px;
+}
+#widgetnav ul li.active {
+  background-color: #4b4e57;
+  border-radius: 7px 0px 0px 0px;
+}
+#widgetnav ul li a {
+  color: #eee;
+  font-size: 2.2em;
+  text-decoration: none;
+  transition: font-size 0.2s;
+}
+#widgetnav ul li a:hover {
+  font-size: 2.6em;
+}
+
+.widgetsection {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  float: left;
+  position: relative;
+  background-color: #1F222A;
+  border-radius: 7px;
+}
+.widgetsection h1 {
+  width: 400px;
+  padding: 20px 0px 35px 0px;
+  position: relative;
+  font-size: 1.5em;
+  border-bottom: 2px solid #4b4e57;
+}
+.widgetsection h1 a.add {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color: #4b4e57;
+  font-size: 2.4em;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 3px;
+  transition: color 0.5s;
+}
+.widgetsection h1 a.add:hover {
+  color: #eee;
+}
+.widgetsection .temperature {
+  padding: 40px 0px;
+  color: #3D414C;
+  font-size: 6em;
+  transition: color 0.5s ease;
+}
+.widgetsection .temperature:hover {
+  color: yellow;
+}
+.widgetsection .temperature h2 {
+  display: inline;
+  color: #eee;
+  font-weight: 300;
+}
+.widgetsection .temperature h2 span.degree-symbol {
+  display: inline-block;
+  margin: 0px 15px;
+  font-size: 0.6em;
+  vertical-align: top;
+}
+.widgetsection .temperature h2 span.celcius {
+  display: inline-block;
+  margin: 10px 0px 0px 15px;
+  color: #3D414C;
+  font-size: 0.3em;
+  vertical-align: top;
+}
+.widgetsection ul {
+  padding: 5px;
+  margin-bottom: 70px;
+}
+.widgetsection ul li {
+  display: block;
+  float: left;
+  margin-right: 60px;
+  color: #3D414C;
+  font-size: 2em;
+}
+.widgetsection ul li:last-child {
+  margin-right: 0px;
+}
+.widgetsection ul li span {
+  padding-left: 10px;
+  color: #eee;
+  font-size: 0.6em;
+  line-height: 30px;
+  vertical-align: top;
+}
+.widgetsection .bullets {
+  height: 70px;
+  color: #3D414C;
+  text-align: center;
+}
+.widgetsection .bullets span {
+  margin-right: 10px;
+  font-size: 0.6em;
+}
+.widgetsection .bullets span.active {
+  color: #eee;
+  font-size: 0.8em;
+}
+.widgetsection a {
+  color: #60646e;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.widgetsection a:hover {
+  color: #eee;
+}
+.widgetsection a .external-link {
+  padding-left: 5px;
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+.widgetsection .share {
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  bottom: 20px;
+  right: -10px;
+  color: #eee;
+  font-size: 2em;
+  text-align: center;
+  line-height: 90px;
+  background-color: rgba(210, 58, 81, 0.9);
+  transition: right 0.2s;
+}
+.widgetsection .share:hover {
+  right: -20px;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "vijay/yii2-weatherwidget",
+    "require-dev": {
+         "yiisoft/yii2": "*"
+    },
+    "authors": [
+        {
+            "name": "Vijayrajput143",
+            "email": "vijaykrajput6@gmail.com"
+        }
+    ],
+     "require": {
+        "yiisoft/yii2": "*"
+    },
+ "autoload": {
+        "psr-4": {
+            "vijay\\yii2-weatherwidget\\": ""
+        }
+    }
+}
